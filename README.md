@@ -22,4 +22,5 @@ Key features:
 
 
 **Notes on the class**
+
 I learned a lot about proper spacing and creation of different elements, as well as how to update HTML code in an IDE and push it to the project
