@@ -24,3 +24,8 @@ Key features:
 **Notes on the class**
 
 I learned a lot about proper spacing and creation of different elements, as well as how to update HTML code in an IDE and push it to the project
+edit #1 - Github and Dev Environment
+
+I learned how to use both the console and VS Code in order to make changes to code and merge code as well
+
+simon css notes -learned how to format with bootstrap -bootstrap modifies html -css is what ultimately brings formatting, away from standard boxes/containers to flexible columns, rows, tables, etc.
