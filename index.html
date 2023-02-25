@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simon</title>
+    <title>Vote Your Brand</title>
+    <style>
+      p {
+        color: green;
+      }
+    </style>
     <link rel="icon" href="favicon.ico" />
+
     <link rel="stylesheet" href="main.css" />
 
     <!-- Include bootstrap CSS framework -->
@@ -19,45 +25,42 @@
   <body class="bg-dark text-light">
     <header class="container-fluid">
       <nav class="navbar fixed-top navbar-dark">
-        <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
+        <a class="navbar-brand" href="#">Vote Your Brand<sup>&reg;</sup></a>
         <menu class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="index.html">Base</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="compete.html">Compete</a>
+            <a class="nav-link" href="compete.html">Fun</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="scores.html">Scores</a>
+            <a class="nav-link" href="scores.html">Points</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Contacts</a>
           </li>
         </menu>
       </nav>
     </header>
 
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
-    </header>
-    
     <main class="container-fluid bg-secondary text-center">
       <div>
         <h1>Welcome</h1>
         <p>Login to play</p>
-        <form method="get" action="compete.html">
-          <input type="text" id="name" placeholder="Your name here" />
-          <button type="submit" class="btn btn-primary">Login</button>
+        <form method="get" action="play.html">
+          <input type="text" id="name" placeholder="User Name" />
+          <a href = "compete.html" target = "_self" type="submit" class="btn btn-primary">Login</a>
         </form>
       </div>
     </main>
 
     <footer class="bg-dark text-dark text-muted">
       <div class="container-fluid">
-        <span class="text-reset">Hunter Liang</span>
+        <span class="text-reset">Serge Su, Hunter Liang</span>
         <a
           class="text-reset"
-          href="https://github.com/lianghunter/simon">Source</a>
+          href="https://github.com/lianghunter/260-Startup" target = "_blank"
+          >Source</a>
       </div>
     </footer>
   </body>
