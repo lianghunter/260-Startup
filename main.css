@@ -24,12 +24,13 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-  color: rgb(81,204,106);
+  color: rgb(204, 85, 81);
 }
 
 footer {
   flex: 0 50px;
 }
+
 
 menu {
   flex: 1;
