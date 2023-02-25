@@ -31,6 +31,10 @@ footer {
   flex: 0 50px;
 }
 
+p{
+  font-size: 24px;
+}
+
 menu {
   flex: 1;
   display: flex;
