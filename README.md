@@ -29,3 +29,10 @@ edit #1 - Github and Dev Environment
 I learned how to use both the console and VS Code in order to make changes to code and merge code as well
 
 simon css notes -learned how to format with bootstrap -bootstrap modifies html -css is what ultimately brings formatting, away from standard boxes/containers to flexible columns, rows, tables, etc.
+
+**HTML/CSS Startup/deliverable notes**
+We learned 
+-Implementing images and fonts.
+-Still need work on alignments.
+-Implementing Checkbox, manipulation of tables
+-Hyperlinks (still needs to be better stylized?)
