@@ -10,7 +10,8 @@
         color: green;
       }
     </style>
-
+    
+    <script src="login.js"></script>
     <link rel="stylesheet" href="main.css" />
 
     <!-- Include bootstrap CSS framework -->
@@ -42,11 +43,11 @@
     <main class="container-fluid bg-secondary text-center">
       <div>
         <h1>Welcome</h1>
-        <div>Login to play</div>
-        <form method="get" action="play.html">
-          <input type="text" id="name" placeholder="User Name" />
-          <a href = "compete.html" target = "_self" type="submit" class="btn btn-primary">Login</a>
-        </form>
+        <p>Login to Vote</p>
+        <div>
+          <input type="text" id="name" placeholder="Your name here" />
+          <button class="btn btn-primary" onclick="login()">Login</button>
+        </div>
       </div>
     </main>
 
