@@ -32,7 +32,14 @@
       </nav>
     </header>
 
+    
+
     <main class="container-fluid bg-secondary text-center">
+      <p id = "msg"></p>
+      <script>
+        msg = 'Username: ' + localStorage.getItem('userName') ?? 'Mystery player';
+        document.getElementById("msg").innerHTML = msg;
+      </script>
       <table class="table table-warning table-striped-columns">
         <thead class="table-dark">
           <tr>
