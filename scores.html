@@ -48,25 +48,30 @@
             <th>Vote</th>
           </tr>
         </thead>
+        <script type = "text/javascript">
+          function calcVote(){
+            
+          }
+        </script>
         <tbody>
           <tr>
             <td><a href="https://www.nike.com/" style="display:block;">Nike</a></td>
-            <td></td>
-            <td>Like<input type = "checkbox">  Strongly like<input type = "checkbox">  Dislike<input type = "checkbox"></td>
-          </tr>
-          <tr>
-            <td><a href="https://www.levi.com/" style="display:block;">Levi's</a></td>
-            <td></td>
-            <td>Like<input type = "checkbox">  Strongly like<input type = "checkbox">  Dislike<input type = "checkbox"></td>
+            <td> Dislikes:  Likes:  Strongly Likes: </td>
+            <td> Dislike <input type = "radio" name = "nike" id = "NDL"> Like <input type = "radio" name = "nike" id = "NL">  Strongly Like <input type = "radio" name = "nike" id = "NSL">  </td>
           </tr>
           <tr>
             <td><a href="https://www.gap.com/" style="display:block;">Gap</a></td>
-            <td></td>
-            <td>Like<input type = "checkbox">  Strongly like<input type = "checkbox">  Dislike<input type = "checkbox"></td>
+            <td> Dislikes:  Likes:  Strongly Likes: </td>
+            <td> Dislike <input type = "radio" name = "gap" id = "GDL"> Like <input type = "radio" name = "gap" id = "GL">  Strongly Like <input type = "radio" name = "gap" id = "GSL">  </td>
+          </tr>
+          <tr>
+            <td><a href="https://www.levi.com/" style="display:block;">Levi's</a></td>
+            <td> Dislikes:  Likes: Strongly Likes: </td>
+            <td> Dislike <input type = "radio" name = "levi" id = "LDL"> Like <input type = "radio" name = "levi" id = "LL">  Strongly Like <input type = "radio" name = "levi" id = "LSL">  </td>
           </tr>
         </tbody>
       </table>
-      <input type = "submit" value = "submit">
+      <button id = "voteSub" onclick="calcVote()">Submit</button>
     </main>
 
     <footer class="bg-dark text-dark text-muted">
