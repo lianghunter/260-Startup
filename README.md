@@ -41,3 +41,7 @@ Simon Javascript
 -Code logic and layout look versy similar to c-based languages!
 -Much easier to work with arrays and variables, similar to python
 -JS can be used in .js files OR directly in the .html files as well, depending on the use case
+
+Simon Startup
+-learned how to make permanent changes
+-requires endpoints and express
