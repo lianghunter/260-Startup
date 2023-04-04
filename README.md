@@ -45,3 +45,8 @@ Simon Javascript
 Simon Startup
 -learned how to make permanent changes
 -requires endpoints and express
+
+Simon DB
+-learned how to create MongoDB database
+-learned how to create MongoDB document
+-learned how to make data persistent
