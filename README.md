@@ -50,3 +50,8 @@ Simon DB
 -learned how to create MongoDB database
 -learned how to create MongoDB document
 -learned how to make data persistent
+
+Simon Login
+-update all modules
+-update env variables!
+-call on endpoints
