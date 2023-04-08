@@ -55,3 +55,7 @@ Simon Login
 -update all modules
 -update env variables!
 -call on endpoints
+
+Simon Websocket
+-provides some functionality between users
+-messages sent using websocket api using browser's port
