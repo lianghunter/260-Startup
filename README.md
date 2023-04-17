@@ -59,3 +59,8 @@ Simon Login
 Simon Websocket
 -provides some functionality between users
 -messages sent using websocket api using browser's port
+
+Simon React
+-requires some bootstrap and jsx modification
+-allows for reusable and reacting components
+-much more efficient loading of data
