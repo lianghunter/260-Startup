@@ -1,0 +1,39 @@
+@BASE_URL = http://localhost:3000/api
+@APPLICATION_JSON = application/json
+
+### register
+POST {{BASE_URL}}/register
+Content-Type: {{APPLICATION_JSON}}
+
+{
+  "username": "tom",
+  "password": "123"
+}
+
+### login
+POST {{BASE_URL}}/login
+Content-Type: {{APPLICATION_JSON}}
+
+{
+  "username": "tom",
+  "password": "123"
+}
+
+
+###
+POST {{BASE_URL}}/votes
+Content-Type: {{APPLICATION_JSON}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphY2siLCJpYXQiOjE2ODE4NzIwMjV9.n9qEXp6n6RjEWeMLvku3BjejL8V0HMCX6vec98kXkm0
+
+{
+  "brandName": "Levis",
+  "dislike": true
+}
+
+###
+GET {{BASE_URL}}/votes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRvbSIsImlhdCI6MTY4MTg4MTM5OH0.-r0BJ530RJ_5uO9Z0zaMGK83rRVBFk_XcfH9jqdNuDc
+
+###
+GET {{BASE_URL}}/randomPicture
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRvbSIsImlhdCI6MTY4MTg4MzEyMH0.ScjVSdcfgRyClJJ-znRzDRGYcsZcQudj6VClAu6dLBc
