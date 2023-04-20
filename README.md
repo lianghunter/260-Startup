@@ -41,3 +41,26 @@ Simon Javascript
 -Code logic and layout look versy similar to c-based languages!
 -Much easier to work with arrays and variables, similar to python
 -JS can be used in .js files OR directly in the .html files as well, depending on the use case
+
+Simon Startup
+-learned how to make permanent changes
+-requires endpoints and express
+
+Simon DB
+-learned how to create MongoDB database
+-learned how to create MongoDB document
+-learned how to make data persistent
+
+Simon Login
+-update all modules
+-update env variables!
+-call on endpoints
+
+Simon Websocket
+-provides some functionality between users
+-messages sent using websocket api using browser's port
+
+Simon React
+-requires some bootstrap and jsx modification
+-allows for reusable and reacting components
+-much more efficient loading of data
