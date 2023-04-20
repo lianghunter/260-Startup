@@ -64,3 +64,6 @@ Simon React
 -requires some bootstrap and jsx modification
 -allows for reusable and reacting components
 -much more efficient loading of data
+
+Startup Service
+-added login and database functionality
